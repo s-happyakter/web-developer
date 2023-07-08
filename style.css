@@ -8,6 +8,9 @@ font-family: 'Open Sans',sans-serif;
 }
 .head{
     background-color: #ecc0a0;
+    background-image:url(img/header_bg.png);
+    background-repeat:no-repeat;
+    background-position:bottom right ;
 }
 
 .tex-primary{
@@ -63,7 +66,7 @@ font-size:20px ;
 }
 /* banar suru */
 .banner{
- padding: 30px 30px 30px 250px;
+ padding: 30px 30px 0px 250px;
 display: flex;
 align-items: center;
 
@@ -72,6 +75,28 @@ align-items: center;
 width: 400px;
 
 } 
+/* about section */
+.about{
+padding: 130px;
+border-radius: 10px;
+background-color: #fff8f3;
+margin:130px ;
+
+}
+.section-title{
+color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight:700px ;
+
+}
+.section-des{
+color: #757575;
+text-align: center;
+font-size: 18px;
+}
+
+
 
 
 
