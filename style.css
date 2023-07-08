@@ -6,6 +6,10 @@ font-family: 'Open Sans',sans-serif;
 
 
 }
+.head{
+    background-color: #ecc0a0;
+}
+
 .tex-primary{
 color: #fd6e0a;
 
@@ -17,14 +21,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f3c29e;
+    /* background-color: #f3c29e; */
+    margin:0px 200px;
    
 }
 .nav-title {
 color: #181818;
 font-size:45px ;
 font-weight:800px ;
-margin-left:30px;
+/* margin-left:30px; */
 /* padding: 15px; */
 
 }
@@ -56,6 +61,17 @@ font-size:20px ;
  padding:8px 15px;
 
 }
+/* banar suru */
+.banner{
+ padding: 30px 30px 30px 250px;
+display: flex;
+align-items: center;
+
+}
+.profile-pic{
+width: 400px;
+
+} 
 
 
 
