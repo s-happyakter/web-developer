@@ -11,6 +11,7 @@ font-family: 'Open Sans',sans-serif;
     background-image:url(img/header_bg.png);
     background-repeat:no-repeat;
     background-position:bottom right ;
+    background-size: cover;
 }
 
 .tex-primary{
@@ -95,8 +96,21 @@ color: #757575;
 text-align: center;
 font-size: 18px;
 }
+.about-info-container{
+    display: flex;
+    justify-content:space-around
+}
+.about-info{
+align-items: center;
+margin: 20px;
+
+}
+
+.section-description{
+ padding: 30px 150px;
 
 
+}
 
 
 
